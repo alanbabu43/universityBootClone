@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+}
+.logo .fab{
+    color: aquamarine;
+    font-size: 42px;
+}
+ul{
+    list-style-type: none;
+    font-weight: 500;
+}
+li a{
+    text-decoration: none;
+}
+.head{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#517e86c4, #949fdf1a),url(image/banner1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+p{
+    font-weight: 300;
+    line-height: 22px;
+}
+#headtext{
+    color: #c8fff2;
+    margin-bottom: 2%;
+}
+.txt h2{
+    color: aquamarine;
+}
+.txt{
+    margin-top: 30vh;
+}
+.verticalLine {
+    widtH: 2px;
+    height: 100px;
+    background: #24f8c7;
+    margin: 100px auto 40px;
+}
+.row1{
+    color: aquamarine;
+}
+.courseCol{
+    background-color: #fff3f3;
+    margin-left: 3%;
+}
+.courseCol1{
+    background-color: #fff3f3;
+    margin-left: 2%;
+}
+.courseCol2{
+    background-color: #fff3f3;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.courseCol:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.courseCol1:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.courseCol2:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.campusCol{
+    margin-left: 3%;
+}
+.campusCol1{
+    margin-left: 2%;
+}
+.campusCol2{
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.campusCol img:hover{
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.campusCol1 img:hover{
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.campusCol2 img:hover{
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+.campusCol img{
+    width: 100%;
+    height: 100%;
+}
+.campusCol1 img{
+    width: 100%;
+    height: 100%;
+}
+.campusCol2 img{
+    width: 100%;
+    height: 100%;
+}
+.layer:hover{
+    background-color: rgb(35, 159, 163);
+}
+.facilitiesCol{
+    margin-left: 3%;
+}
+.facilitiesCol1{
+    margin-left: 2%;
+}
+.facilitiesCol2{
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.facilitiesCol img{
+    width: 100%;
+}
+.facilitiesCol1 img{
+    width: 100%;
+}
+.facilitiesCol2 img{
+    width: 100%;
+}
+.facilitiesCol img:hover{
+    box-shadow: 0 0 20px 10px rgba(38, 42, 88, 0.2);
+}
+.facilitiesCol1 img:hover{
+    box-shadow: 0 0 20px 10px rgba(38, 42, 88, 0.2);
+}
+.facilitiesCol2 img:hover{
+    box-shadow: 0 0 20px 10px rgba(38, 42, 88, 0.2);
+}
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(image/back1.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.Sub-header h1{
+    color: aquamarine;
+}
+
+/* contact */
+
+.location iframe{
+    width: 90%;
+}
